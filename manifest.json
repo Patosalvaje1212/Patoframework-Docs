@@ -1,0 +1,589 @@
+{
+  "source_base_path": "/home/patosalvaje/Documents/Framework",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Patoframework/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Patoframework/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IconFonts.FontAwesome6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IconFonts.FontAwesome6.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IconFonts.FontAwesome6",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IconFonts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IconFonts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IconFonts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Behaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Behaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Behaviour",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Behaviour.yml\" sourcestartlinenumber=\"1\">Basic class for all the Behaviours</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.BehaviourHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.BehaviourHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.BehaviourHelper",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.BehaviourHelper.yml\" sourcestartlinenumber=\"1\">Static class for general helpers</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Entity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Entity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.ErrorManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.ErrorManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.ErrorManager",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.ErrorManager.yml\" sourcestartlinenumber=\"1\">Simple class to easily log Errors to the Console</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.GameController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.GameController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.GameController",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.GameController.yml\" sourcestartlinenumber=\"1\">Base class for the game Loop, it holds all the Enitites.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Inspector.InspectorHideAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Inspector.InspectorHideAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Inspector.InspectorHideAttribute",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Inspector.InspectorHideAttribute.yml\" sourcestartlinenumber=\"1\">Prevents the Inspector from exposing this variable</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Inspector.InspectorHideNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Inspector.InspectorHideNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Inspector.InspectorHideNullAttribute",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Inspector.InspectorHideNullAttribute.yml\" sourcestartlinenumber=\"1\">Hides this property if its value is null</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Inspector.InspectorNonEditableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Inspector.InspectorNonEditableAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Inspector.InspectorNonEditableAttribute",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Inspector.InspectorNonEditableAttribute.yml\" sourcestartlinenumber=\"1\">Prevents this variable from being edited in the inspector ( readonly )</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Inspector.InspectorShowOrderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Inspector.InspectorShowOrderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Inspector.InspectorShowOrderAttribute",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Inspector.InspectorShowOrderAttribute.yml\" sourcestartlinenumber=\"1\">Forces the Inspector to draw this property in an specific order</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Inspector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Inspector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.InspectorHideAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.InspectorHideAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.InspectorHideAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.InspectorHideNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.InspectorHideNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.InspectorHideNullAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.InspectorNonEditableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.InspectorNonEditableAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.InspectorNonEditableAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.InspectorShowOrderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.InspectorShowOrderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.InspectorShowOrderAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.InspectorVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.InspectorVisual.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.InspectorVisual",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Physics.PhysicBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Physics.PhysicBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Physics.PhysicBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Physics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Physics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Physics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.CameraManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.CameraManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.CameraManager",
+      "Summary": "<p sourcefile=\"api/PatoframeWork.Rendering.CameraManager.yml\" sourcestartlinenumber=\"1\">Class to handle the camera logic</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.ImageData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.ImageData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.ImageData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.LightBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.LightBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.LightBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.LightsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.LightsManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.LightsManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.RendererBehaviour.VisualShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.RendererBehaviour.VisualShapeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.RendererBehaviour.VisualShapeType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.RendererBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.RendererBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.RendererBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.SpriteManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.SpriteManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering.SpriteManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Rendering.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Rendering",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Tweening.Tween-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Tweening.Tween-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Tweening.Tween<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Tweening.TweenManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Tweening.TweenManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Tweening.TweenManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.Tweening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.Tweening.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork.Tweening",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PatoframeWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PatoframeWork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "PatoframeWork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patoframework.Inspector.InspectorVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patoframework.Inspector.InspectorVisual.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Patoframework.Inspector.InspectorVisual",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Patoframework.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Patoframework.Inspector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Patoframework.Inspector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/rlImGui_cs.RlImGui.SetupUserFontsCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rlImGui_cs.RlImGui.SetupUserFontsCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "rlImGui_cs.RlImGui.SetupUserFontsCallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/rlImGui_cs.RlImGui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rlImGui_cs.RlImGui.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "rlImGui_cs.RlImGui",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/rlImGui_cs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/rlImGui_cs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "rlImGui_cs",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
